@@ -15,7 +15,7 @@ class Config(object):
     ASSISTANT_ID = getenv("ASSISTANT_ID", "5743885958")
     STRING_SESSION = getenv("STRING_SESSION", "1BVtsOIUBu0PNRMZXjhxr88j3FHyty78hCA2l7Kw3RWEY1B17z3mmH0jpaULuHqbVLSzE8LNyiYoj2DQ8J6O8dUj1dU-lILLQVhtBSr_VOmdppX9e2Ai3JDucwtSU8X60bOkQdXJwMnJSHSjFcmWh120iqifJwYJzN4Xk0feSAgEzmHvAzaT4z38u8T14mq8mzNQPvPrn6XAHRPqE11d5MWuwn-8Jxdr0wH3AEo8UhNj_OW4sm0IKT_R8SYcJFWVmP4Qq0L8DiJGLpKIkupr6jfuBh4OJNHDdCUVeiBeEAMKmKNU-HLClq1bY4f7kmiNd3QddO7po7eCDEugLUzIEby380AFWtM4=") #telethon
     OWNER_USERNAME = getenv("OWNER_USERNAME", "plumblossomsword")
-    DB_URI = getenv("DATABASE_URL", "postgres://Komi:#Strongpass0@postgresql-117945-0.cloudclusters.net:11931/telegram")
+    DB_URI = getenv("DATABASE_URL", "postgres://Komi:#Strongpass0@postgres-117945-0.cloudclusters.net:11931/telegram")
     DB_URI = DB_URI.replace("postgres", "postgresql")
     MESSAGE_DUMP = getenv("MESSAGE_DUMP", "-1001838981105")
     GBAN_LOGS = getenv("GBAN_LOGS", "-1001838981105")
