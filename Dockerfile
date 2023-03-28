@@ -8,5 +8,5 @@ RUN apt-get install -y nodejs
 COPY . .
 RUN pip3 install wheel
 RUN pip3 install --no-cache-dir -U -r requirements.txt
-COPY start /start
-CMD ["/bin/bash", "/start"]
+COPY Telegram Telegram
+CMD python3 -m Telegram
