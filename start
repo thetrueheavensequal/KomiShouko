@@ -1,5 +1,5 @@
 #!/bin/bash
     
-git clone https://thetrueheavensequal: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@github.com/thetrueheavensequal/KomiShouko KomiShouko
+git clone https://thetrueheavensequal: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@github.com/thetrueheavensequal/KomiShouko KomiShouko
 cd KomiShouko
 python3 -m Telegram
